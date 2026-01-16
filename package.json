@@ -11,13 +11,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/three": "^0.180.0",
-    "prettier": "^3.6.2",
+    "@types/three": "^0.181.0",
+    "prettier": "^3.7.4",
     "typescript": "^5.9.3",
-    "vite": "^7.1.9"
+    "vite": "^7.2.7"
   },
   "dependencies": {
-    "lil-gui": "^0.20.0",
+    "lil-gui": "^0.21.0",
     "stats.js": "^0.17.0",
     "three": "^0.181.2"
   }
