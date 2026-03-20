@@ -18,11 +18,11 @@ Vite + TypeScript + Three.js starter
 
 ## Tech Stack
 
-- Three.js
-- TypeScript
-- Vite
+- [Three.js](https://github.com/mrdoob/three.js/) 🎨
+- Typescript 🦾
+- Powered with [Vite](https://vite.dev/) 📦
 
-## Stuff included in the `scene.ts`
+## Features
 
 - [x] Geometry
 - [x] Material
