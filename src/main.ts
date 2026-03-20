@@ -25,7 +25,7 @@ import { toggleFullScreen } from "./helpers/fullscreen";
 import { resizeRendererToDisplaySize } from "./helpers/responsiveness";
 import "./style.css";
 
-const CANVAS_ID = "scene";
+const CANVAS_ID = "webgl";
 
 let canvas: HTMLElement;
 let renderer: WebGLRenderer;
