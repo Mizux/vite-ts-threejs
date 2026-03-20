@@ -4,17 +4,21 @@ import {
   AxesHelper,
   BoxGeometry,
   Clock,
+  DirectionalLight,
   GridHelper,
   LoadingManager,
   Mesh,
   MeshLambertMaterial,
+  MeshNormalMaterial,
   MeshStandardMaterial,
+  MeshToonMaterial,
   PCFSoftShadowMap,
   PerspectiveCamera,
   PlaneGeometry,
   PointLight,
   PointLightHelper,
   Scene,
+  TorusGeometry,
   WebGLRenderer,
 } from "three";
 import { DragControls } from "three/addons/controls/DragControls.js";
@@ -23,6 +27,35 @@ import Stats from "stats.js";
 import * as animations from "./helpers/animations";
 import { toggleFullScreen } from "./helpers/fullscreen";
 import { resizeRendererToDisplaySize } from "./helpers/responsiveness";
+
+//import { createGUI } from './core/createGUI'
+//import { createResizeObserver } from './utils/resizeObserver'
+//import { createScene } from './core/createScene'
+//import { createRenderer } from './core/createRenderer'
+//import { createCamera } from './core/createCamera'
+//import { createControls } from './core/createControls'
+/*
+const canvas = document.querySelector<HTMLCanvasElement>('#webgl')
+if (!canvas) {
+  throw new Error('Canvas #webgl not found')
+}
+
+const resizeObserver = createResizeObserver()
+
+const { scene } = createScene({ clearColor: '#333' })
+
+const { renderer, dispose: disposeRenderer } = createRenderer({
+  canvas,
+  resizeObserver,
+  scene,
+})
+
+const { camera, dispose: disposeCamera } = createCamera({ resizeObserver })
+scene.add(camera)
+
+createControls(camera, renderer.domElement)
+*/
+
 import "./style.css";
 
 const CANVAS_ID = "webgl";
